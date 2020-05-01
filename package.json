@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "nodemon --watch src -r esm src/index.js"
+    "start": "nodemon --watch src -r esm src/index.js",
+    "serve": "node -r esm src/index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
