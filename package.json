@@ -8,11 +8,13 @@
     "cors": "^2.8.5",
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "node-yeelight-wifi": "^0.1.4",
-    "nodemon": "^2.0.3"
+    "node-yeelight-wifi": "^0.1.4"
   },
   "name": "rgb",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
