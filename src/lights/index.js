@@ -4,6 +4,7 @@ const lights = {};
 let look = new Lookup();
 
 look.on("detected", (light) => {
+  console.log('detected')
   lights[light.id] = light;
 });
 

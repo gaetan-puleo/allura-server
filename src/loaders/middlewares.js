@@ -11,5 +11,9 @@ export default function middlewares(app) {
     })
   );
 
+  app.use(function(err, req, res, next) {
+    // logic
+    console.log(err)
+  });
   return app;
 }
