@@ -32,7 +32,7 @@ To setup the dev env you can run those commands
 #install
 yarn 
 
-# start nodemon
+# start server
 yarn start
 ```
 
